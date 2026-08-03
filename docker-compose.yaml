@@ -1,6 +1,6 @@
 services:
   friday:
     build: .
-    expose:
-      - 80
+    ports:
+      - "8089:80"
     restart: unless-stopped
